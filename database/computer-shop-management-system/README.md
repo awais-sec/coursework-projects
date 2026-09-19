@@ -1,19 +1,66 @@
 # Computer Shop Management System
 
-A relational database project for managing a computer retail/service shop: customers, inventory (parts and systems), sales, employees, warranties, and repair tickets.
+A relational database coursework project for managing a computer retail and service shop, covering customers, balances, computer parts, systems, troubleshooting records, employees, and warranties.
 
-## Schema
+## Database Structure
 
-7 tables: `Customer`, `Balance`, `ComputerPartDetail`, `ComputerSystemDetail`, `Troubleshoot`, `Employee`, `Warranty`.
+The final schema contains seven tables:
 
-`schema.sql` contains the full table definitions, sample data (15 rows per table), CRUD examples, and a join between `Customer` and `Balance`.
+- `Customer`
+- `Balance`
+- `ComputerPartDetail`
+- `ComputerSystemDetail`
+- `Troubleshoot`
+- `Employee`
+- `Warranty`
 
-`stored_procedures_fixed.sql` contains four stored procedures (add customer, generate sales report, log a troubleshooting ticket, search employees), corrected to match the final table structure — see note below.
+`schema.sql` contains the table definitions, sample data, CRUD examples, and a customer/balance join.
 
-## Diagrams
+## Stored Procedures
 
-`erd.png` and `schema-diagram.png` are early design iterations from before the schema was finalized, kept here to show the design process. They don't fully match the final 7-table schema in `schema.sql` — the final schema is the source of truth.
+`stored_procedures_fixed.sql` contains four corrected procedures:
 
-## Note on the stored procedures
+- `AddCustomer`
+- `GenerateSalesReport`
+- `AddTroubleshootingLog`
+- `SearchEmployee`
 
-The stored procedures were originally written against an earlier, slightly different version of the column names (e.g. `Customer_Name` instead of `CustomerName`) and would not execute against the final schema. `stored_procedures_fixed.sql` corrects the parameter and column names to match the tables in `schema.sql`.
+The separate fixed file is intentional: the original coursework procedures referenced older column names that no longer matched the final schema. The corrected version aligns the procedure parameters and queries with the current tables.
+
+## Design Artifacts
+
+- `erd.png`
+- `schema-diagram.png`
+
+These diagrams are retained as earlier design iterations. They do not fully match the final seven-table schema; `schema.sql` is the source of truth.
+
+## Workflow
+
+```text
+Requirements / Shop Functions
+          ↓
+      Table Design
+          ↓
+      Sample Data
+          ↓
+   CRUD + Relational Queries
+          ↓
+    Stored Procedures
+          ↓
+   Schema / Design Review
+```
+
+## Technical Focus
+
+- Microsoft SQL Server / T-SQL
+- Relational schema design
+- Primary and foreign keys
+- CRUD operations
+- Joins
+- Stored procedures
+- Sample data modeling
+- Database design documentation
+
+## Scope
+
+This is an academic database project preserved as coursework evidence. It is not intended to represent a production-ready retail or service database.
