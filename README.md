@@ -7,6 +7,8 @@ Academic coursework projects kept as a record of university work outside the cor
 | Area | Contents |
 |---|---|
 | [Database](database/) | SQL Server setup, database assignments, and a Computer Shop Management System project |
+| [Machine Learning](machine-learning/) | Data-preprocessing coursework, including KNN imputation |
+| [Python Projects](python-projects/) | Standalone GUI/CLI applications: Event Planner Pro, File Extractor Tool, Search Engine |
 
 ## Database Coursework
 
@@ -28,11 +30,17 @@ This repository demonstrates coursework experience with:
 
 ```text
 coursework-projects/
-└── database/
-    ├── assignments/
-    ├── computer-shop-management-system/
-    ├── how-to-install-sql-server.docx
-    └── README.md
+├── database/
+│   ├── assignments/
+│   ├── computer-shop-management-system/
+│   ├── how-to-install-sql-server.docx
+│   └── README.md
+├── machine-learning/
+│   └── knn-imputation/
+└── python-projects/
+    ├── event-planner-pro/
+    ├── file-extractor-tool/
+    └── search-engine/
 ```
 
 ## Scope

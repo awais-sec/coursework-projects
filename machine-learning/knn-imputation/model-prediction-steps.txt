@@ -1,0 +1,11 @@
+Steps Use for Model Prediction 
+1-Understand Data: Inspect and visualize.
+2-Clean Data: Handle missing values and outliers.
+3-Encode Features: Convert categorical to numerical.
+4-Scale Data: Normalize or standardize numerical features.
+5-Split Data: Training, validation, and testing sets.
+6-Balance Data: Handle class imbalances. 
+7-Feature Engineering: Select/create meaningful features.
+8-Reduce Dimensions: Apply PCA or similar methods.
+9-Augment Data: For smaller datasets.
+10-Prepare for Model: Ensure compatibility with machine learning algorithms
