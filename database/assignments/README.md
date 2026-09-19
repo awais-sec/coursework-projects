@@ -1,10 +1,32 @@
-# Assignments
+# Database Assignments
 
-SQL practice exercises completed in SQL Server Management Studio, covering table creation, inserts, and basic queries across a few different sample schemas.
+SQL practice exercises completed in SQL Server Management Studio, covering database creation, table design, data insertion, and basic queries across sample schemas.
 
-- `cricket-teams-table.jpg` — Teams table: country, players, captain, coach
-- `cricket-players-table.jpg` — Players table: team, player name, matches played, date of birth
-- `cricket-battingstats-table.jpg` — BattingStats table: player, matches, runs scored, balls faced
-- `cricket-matches-table.jpg` — Matches table: match number, team, location, result
-- `creating-database.jpg` — basic database lifecycle: create, alter/rename, and drop a database
-- `university-database.jpg` — UniversityXYZ database: Employee_Details table creation
+## Contents
+
+| File | Focus |
+|---|---|
+| `cricket-teams-table.jpg` | Teams table |
+| `cricket-players-table.jpg` | Players table |
+| `cricket-battingstats-table.jpg` | Batting statistics table |
+| `cricket-matches-table.jpg` | Matches table |
+| `creating-database.jpg` | Create, alter/rename, and drop database operations |
+| `university-database.jpg` | UniversityXYZ / Employee_Details table creation |
+
+## Workflow
+
+```text
+Database Setup
+      ↓
+Table Creation
+      ↓
+Insert Sample Data
+      ↓
+Basic Queries / Inspection
+      ↓
+Review Results
+```
+
+## Scope
+
+These files are preserved as academic SQL practice rather than presented as a production database system.
